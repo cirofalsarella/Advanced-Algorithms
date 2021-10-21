@@ -3,6 +3,13 @@
 
 using namespace :: std;
 
+// Was supposed to be solved with binary search
+// I thought this way and it's faster so..
+
+// The minimum strength will be
+//   - The biggest number
+//   - The biggest number plus 1
+
 int minStrength(vector<int> steps) {
     int min_str = 0;
     int at_str = 0;
